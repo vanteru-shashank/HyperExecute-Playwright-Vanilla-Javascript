@@ -24,6 +24,6 @@ test.describe('Browse LambdaTest in different search engines 1', () => {
     else{
         console.log('input message is not displayed')
     }
-    await page.waitForTimeout(5000)
+    await page.waitForTimeout(6000)
     })
   })

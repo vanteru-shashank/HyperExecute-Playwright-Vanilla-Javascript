@@ -14,7 +14,7 @@ while(temp!='95')
     temp++
 }
 console.log(temp)
-await page.waitForTimeout(5000)
+await page.waitForTimeout(6000)
 
 })
 })

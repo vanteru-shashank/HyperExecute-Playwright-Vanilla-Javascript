@@ -30,6 +30,6 @@ if(successmessage==message){
 else{
     console.log('not success')
 }
-await page.waitForTimeout(5000)
+await page.waitForTimeout(6000)
 })
 })
