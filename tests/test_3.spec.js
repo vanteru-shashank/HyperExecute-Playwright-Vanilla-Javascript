@@ -13,7 +13,7 @@ await page.locator("//input[@id='inputPassword4']").fill("Rssa@1997")
 
 await page.locator("//input[@id='company']").fill("Info")
 await page.locator("//input[@name='website']").fill("Info.com")
-await page.locator("//select[@name='country']").selectOption('United States')
+await page.click("//select[@name='country']",'United States')
 await page.locator("//input[@name='city']").fill("california")
 await page.locator("//input[@name='address_line1']").fill("Ohri's street")
 await page.locator("//input[@name='address_line2']").fill("PP")
